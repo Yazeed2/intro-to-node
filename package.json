@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "name": "introToNodeJs",
+  "version": "1.0.0",
+  "description": "An introduction to node js ",
+  "main": "index.js",
+  "author": "Yazeed",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.10"
+  }
+}
