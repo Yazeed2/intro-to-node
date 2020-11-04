@@ -5,7 +5,5 @@ const user = require('./userRoute')
 
 // add your routes here  👇👇
 
-router.use('/blog', blog) 
-router.use('/user', user)
 
 module.exports = router; 
