@@ -12,7 +12,8 @@ I am going to list a couple of things that need to be installed on your machine 
 <br> 
 Node.js
 ----
-To install Node.js you can [click here](https://phoenixnap.com/kb/install-node-js-npm-on-windows) to follow this tutorial.
+To install Node.js you can [click here](https://phoenixnap.com/kb/install-node-js-npm-on-windows) 
+to follow this tutorial.
 
 ----
 
