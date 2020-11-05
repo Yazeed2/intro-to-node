@@ -10,9 +10,10 @@ This project is a part of a tutorial for backend development in Node.js.
 I am going to list a couple of things that need to be installed on your machine beforehand.
 
 <br> 
-Node.js
+
+## Node.js
 ----
-To install Node.js you can [click here](https://phoenixnap.com/kb/install-node-js-npm-on-windows) 
+To install Node.js you can  [click here](https://phoenixnap.com/kb/install-node-js-npm-on-windows) 
 to follow this tutorial.
 
 ----
