@@ -3,7 +3,7 @@ const app = express()
 const mongoose = require('mongoose')
 
 mongoose.connect(
-    'mongodb://localhost/FirstBlog', // this should be in a secoure file like a .env file
+    'mongodb://localhost/FirstBlog', // this should be in a secure file like a .env file
     {useNewUrlParser : true , useUnifiedTopology: true ,'useCreateIndex': true}  // parameters to aviod any warrnings 
     
     )
@@ -29,7 +29,7 @@ app.use(express.urlencoded({extended:false}));
 // })
  
 // routes 
-app.use('/', require('./routes/routeIndex'));
+app.use('/', require('./routes/indexRoute'));
 
 
 // error handler 

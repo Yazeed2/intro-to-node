@@ -7,14 +7,14 @@ const blogSchema = new Schema(
     title: {
         type: String,
         required: true,
-        maxlength: 200
+        maxlength: 200,
+        unique:true
       
     },
     text:{
         required: true, 
-        type:String, 
-        unique:true
-    }
+        type:String
+      }
   },
   { timestamps: true }
 );
