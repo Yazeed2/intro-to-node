@@ -2,23 +2,23 @@ const express = require ('express')
 const router = express.Router()
 
 
-router.get('/', async(req, res, next)=> { 
+router.get('/', async(req, res)=> { 
 
 })
 
-router.post('/', async(req, res, next)=> { 
+router.post('/', async(req, res)=> { 
 
 })
 
-router.get('/:id', async(req, res, next)=> { 
+router.get('/:id', async(req, res)=> { 
 
 })
 
-router.put('/:id', (req, res, next)=> { 
+router.put('/:id', (req, res)=> { 
 
 })
 
-router.delete('/:id', async(req, res, next)=> { 
+router.delete('/:id', async(req, res)=> { 
 
 })
 

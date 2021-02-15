@@ -8,29 +8,11 @@ const mongoose = require('mongoose')
 app.use(express.json());
 app.use(express.urlencoded({extended:false}));
 
-// app.use((request, result, next)=> { 
-//     console.log('middleware 1')
-//     next()
-// })
-
-// //a middleware with a chance of getting an error
-// app.use((req, res, next)=> { 
-//     let number = Math.floor(Math.random()* 2)
-//     if(number == 1){ 
-//         res.status(200).json({msg: 'you are lucky I like you '})
-//     }else{ 
-//         next('I do not like zeros')
-//     }
-// })
- 
-// routes 
-app.use('/', require('./routes/routeIndex'));
+// app.get('/', (req,res)=> { 
+//     res.send('Hello world!')
+// } )
+// app.use('/', require('./routes/indexRoute'));
 
 
-// error handler 
-app.use((err, req, res, done)=> {
-
-    res.status(500).json({msg: 'an error has accoured', error:err })
-})
 
 app.listen(3000, ()=>console.log(`server is running on port 3000 🔥`));
