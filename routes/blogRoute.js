@@ -42,12 +42,13 @@ router.get('/:id', async(req, res)=> {
     }
 } )
 
-router.put('/:id', (req, res)=> { 
+router.put('/:id',async (req, res)=> { 
     try{    
         const text = req.body.text
         const title = req.body.title
 
-        Blog.findByIdAndUpdate(req.parmas.id,  {text:text, title:title})
+        await Blog.findByIdAndUpdate(req.params.id,  {text:text, title:title})
+        res.status(200).json({msg: 'blog was updated successfully 👍'})
     }catch (err){   
        console.log(err)
        res.status(500).json({msg:"server error ☹️"})
